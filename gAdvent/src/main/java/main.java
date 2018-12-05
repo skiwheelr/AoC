@@ -20,19 +20,24 @@ public class main {
     public static void main(String[] args) throws FileNotFoundException, IOException {
        
         main adv = new main();
+        
         //File fr = new File("/input01.txt");
-        // Open the file
         //FileInputStream d1 = new FileInputStream("input01.txt");
         //System.out.println(adv.chronal(d1));
 
-        FileInputStream d2 = new FileInputStream("input02.txt");
-        day2 i2 = new day2();
-        i2.invent(d2);
-
-//        Day3 d3 = new Day3();
+//        FileInputStream d2 = new FileInputStream("input02.txt");
+//        day2 i2 = new day2();
+//        i2.invent(d2);
+//
+//        day3 d3 = new day3();
 //        File fr3 = new File("/input03.txt");
 //        FileInputStream fi3 = new FileInputStream("input03.txt");
 //        d3.slice(fi3);
+
+          day4 d4 = new day4();
+          File fr4 = new File("/input04.txt");
+          FileInputStream fi4 = new FileInputStream("input04.txt");
+          d4.sneak(fi4);
 
     }
 }
